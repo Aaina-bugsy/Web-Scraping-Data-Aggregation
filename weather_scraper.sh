@@ -1,7 +1,7 @@
 
 <<<<<<< HEAD
 city="Waterloo"
-api_key="c8097494cf9e7cad4803932e2647f9b9"
+api_key="API"
 =======
 city="New%20York,US"
 api_key="API"
