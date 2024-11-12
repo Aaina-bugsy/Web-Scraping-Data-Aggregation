@@ -35,48 +35,52 @@ To run this script, you'll need the following tools installed on your system:
 ---
 
 ## How to Install 🛠️
-- Clone the Repository - Clone this repository to your local machine using the following command:
+### 1. Clone the Repository 📂
+Clone this repository to your local machine using the following command:
 
-bash
-Copy code
+```bash
 git clone https://github.com/Aaina-bugsy/Web-Scraping-Data-Aggregation.git
-2. Install Dependencies
-Make sure you have curl, jq, and sqlite3 installed:
+```
+
+### 2. Install Dependencies 📥
+Make sure you have curl, jq, and sqlite3 installed.
 
 For Linux (Ubuntu):
 
-bash
-Copy code
+```bash
 sudo apt install curl jq sqlite3
+```
+
 For macOS (use Homebrew):
 
-bash
-Copy code
+```bash
 brew install curl jq sqlite3
-For Windows: Download and install Git Bash to use the script, along with curl, jq, and sqlite3 from Windows packages.
+```
 
-3. Configure API Key
+For Windows:
+Download and install Git Bash to use the script, along with curl, jq, and sqlite3 from Windows packages.
+
+### 3. Configure API Key 🔑
 Get your API key by signing up at OpenWeather.
-Replace the placeholder YOUR_API_KEY in the script with your actual API key.
-bash
-Copy code
+Replace the placeholder YOUR_API_KEY in the script with your actual API key:
+```bash
 api_key="YOUR_API_KEY"
-How to Run 🚀
-Make the Script Executable: After downloading the repository, navigate to the directory containing the script and make it executable:
+```
 
-bash
-Copy code
+## How to Run 🚀
+### 1. Make the Script Executable 🔧
+After downloading the repository, navigate to the directory containing the script and make it executable:
+
+```bash
 chmod +x weather_scraper.sh
-Run the Script: Execute the script to fetch weather data and store it in the database:
+```
 
-bash
-Copy code
+### 2. Run the Script 🌦️
+Execute the script to fetch weather data and store it in the database:
+
+```bash
 ./weather_scraper.sh
-View Stored Data: To view the weather data stored in the SQLite database, you can use the following command:
-
-bash
-Copy code
-sqlite3 weather.db "SELECT * FROM weather;"
+```
 
 ---
 
