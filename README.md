@@ -1,4 +1,4 @@
-# Automated Web Scraping and Data Aggregation Script 📝
+# Automated Web Scraping and Data Aggregation 
 
 This project is designed to fetch and aggregate weather data from the OpenWeather API and store it in a local SQLite database for reporting and analysis.
 
